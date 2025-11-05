@@ -22,6 +22,7 @@ import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 
 const queryClient = new QueryClient();
+const basename = window.location.pathname.startsWith('/autosalvage') ? '/autosalvage' : '';
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
@@ -29,7 +30,7 @@ const App = () => (
       <CartProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter basename={import.meta.env.PROD ? "/autosalvage" : ""}>
+        <BrowserRouter basename={basename}>
         <ScrollToTopOnNavigation />
         <div className="min-h-screen flex flex-col">
           <Header />

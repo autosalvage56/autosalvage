@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - AutoSalvage</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 2rem;
+        }
+        .error-code {
+            font-size: 8rem;
+            font-weight: bold;
+            color: #dc2626;
+            line-height: 1;
+            margin-bottom: 1rem;
+        }
+        .error-title {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #f1f5f9;
+        }
+        .error-description {
+            font-size: 1.1rem;
+            color: #cbd5e1;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            background: #dc2626;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background-color 0.2s;
+            margin: 0.5rem;
+        }
+        .btn:hover {
+            background: #b91c1c;
+        }
+        .btn-secondary {
+            background: transparent;
+            border: 2px solid #dc2626;
+        }
+        .btn-secondary:hover {
+            background: #dc2626;
+        }
+        @media (max-width: 640px) {
+            .error-code {
+                font-size: 6rem;
+            }
+            .error-title {
+                font-size: 1.5rem;
+            }
+            .container {
+                padding: 1rem;
+            }
+        }
+    </style>
+    <script>
+        // Handle SPA routing for GitHub Pages
+        (function() {
+            var redirect = sessionStorage.redirect;
+            delete sessionStorage.redirect;
+            if (redirect && redirect !== location.href) {
+                history.replaceState(null, null, redirect);
+            }
+        })();
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="error-code">404</div>
+        <h1 class="error-title">Page Not Found</h1>
+        <p class="error-description">
+            Sorry, we couldn't find the page you're looking for. The page may have been moved, deleted, or you may have entered an incorrect URL.
+        </p>
+        <div>
+            <a href="/autosalvage/" class="btn">Go Home</a>
+            <a href="/autosalvage/shop" class="btn btn-secondary">Browse Parts</a>
+        </div>
+    </div>
+</body>
+</html>

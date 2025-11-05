@@ -1,73 +1,107 @@
-# Welcome to your Lovable project
+# AutoSalvage - Mobile Responsive Website
 
-## Project info
+Live Website: [https://autosalvage56.github.io/autosalvage/](https://autosalvage56.github.io/autosalvage/)
 
-**URL**: https://lovable.dev/projects/42d52ac4-b312-4cc0-b3de-c784392df793
+## 🚀 Features
 
-## How can I edit this code?
+### 📱 **Full Mobile Responsiveness**
+- **Mobile-First Design**: Optimized for all screen sizes from 320px to 1400px+
+- **Touch-Friendly Interface**: All interactive elements meet 44px minimum touch target guidelines
+- **Performance Optimized**: Disabled heavy animations on mobile for better performance
+- **Mobile Meta Tags**: Enhanced viewport and mobile browser optimization
 
-There are several ways of editing your application.
+### 🛍️ **E-Commerce Features**
+- **Product Catalog**: Browse genuine auto parts for Indian car brands
+- **Shopping Cart**: Add, remove, and manage cart items with persistent storage
+- **Mobile Cart**: Optimized cart interface for mobile devices
+- **Product Search**: Advanced search and filtering capabilities
 
-**Use Lovable**
+### 🎨 **Modern UI/UX**
+- **Responsive Header**: Mobile hamburger menu with cart integration
+- **Hero Section**: Mobile-optimized hero with touch-friendly CTAs
+- **Product Cards**: Responsive cards that adapt from 2-column to 4-column layouts
+- **Floating Call Button**: Mobile-specific floating call button for better UX
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/42d52ac4-b312-4cc0-b3de-c784392df793) and start prompting.
+### 🔧 **Technical Stack**
+- **React 18** with TypeScript
+- **Vite** for fast development and building
+- **Tailwind CSS** for responsive styling
+- **Framer Motion** for smooth animations
+- **Shadcn/UI** for consistent component library
+- **Lucide React** for modern icons
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🏗️ **Development**
 
-**Use your preferred IDE**
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Local Development
+```bash
+# Clone the repository
+git clone https://github.com/autosalvage56/autosalvage.git
+cd autosalvage
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+# Install dependencies
+npm install
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
+
+# Build for production
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+### 📱 **Mobile Testing**
+Test the mobile responsiveness by:
+1. Opening Chrome DevTools (F12)
+2. Clicking the device toggle icon
+3. Testing different device presets (iPhone, iPad, etc.)
+4. Or resize browser window to see responsive breakpoints
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🌐 **Deployment**
 
-**Use GitHub Codespaces**
+The website is automatically deployed to GitHub Pages using GitHub Actions when changes are pushed to the main branch.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+**Live URL**: [https://autosalvage56.github.io/autosalvage/](https://autosalvage56.github.io/autosalvage/)
 
-## What technologies are used for this project?
+### Deployment Features
+- **Automatic Deployment**: GitHub Actions workflow for CI/CD
+- **Custom Domain Ready**: CNAME configuration for custom domain
+- **Static Site Generation**: Optimized static files for fast loading
+- **CDN Distribution**: Served via GitHub Pages CDN
 
-This project is built with:
+## 📊 **Mobile Optimizations**
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Responsive Breakpoints
+- **xs**: 375px (Small phones)
+- **sm**: 640px (Large phones)
+- **md**: 768px (Tablets)
+- **lg**: 1024px (Small laptops)
+- **xl**: 1280px (Large laptops)
+- **2xl**: 1400px (Desktop)
 
-## How can I deploy this project?
+### Performance Features
+- **Font Optimization**: Preloaded Google Fonts
+- **Image Optimization**: Responsive images with proper sizing
+- **Code Splitting**: Lazy loading for better performance
+- **CSS Optimization**: Purged unused CSS in production
 
-Simply open [Lovable](https://lovable.dev/projects/42d52ac4-b312-4cc0-b3de-c784392df793) and click on Share -> Publish.
+## 🛠️ **Contributing**
 
-## Can I connect a custom domain to my Lovable project?
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-Yes, you can!
+## 📞 **Contact**
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+For any questions or support:
+- **Email**: hello@autosalvage.com
+- **Phone**: +91-XXXXX-XXXXX (Coming Soon)
+- **Hours**: Mon–Sat: 9:30 AM–7:30 PM, Sun: Closed
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+Built with ❤️ for the automotive community in India.

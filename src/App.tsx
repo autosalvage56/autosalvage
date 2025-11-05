@@ -29,7 +29,7 @@ const App = () => (
       <CartProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename={import.meta.env.PROD ? "/autosalvage" : ""}>
         <ScrollToTopOnNavigation />
         <div className="min-h-screen flex flex-col">
           <Header />

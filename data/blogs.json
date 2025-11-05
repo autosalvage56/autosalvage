@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "slug": "essential-car-maintenance-tips",
+    "title": "10 Essential Car Maintenance Tips Every Driver Should Know",
+    "excerpt": "Regular maintenance is key to keeping your vehicle running smoothly. Learn the top 10 maintenance tips that can save you money and extend your car's lifespan.",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&q=80",
+    "author": "Mike Johnson",
+    "date": "2024-11-01",
+    "category": "Maintenance",
+    "readTime": "5 min read"
+  },
+  {
+    "id": 2,
+    "slug": "brake-system-warning-signs",
+    "title": "5 Warning Signs Your Brake System Needs Attention",
+    "excerpt": "Don't ignore these critical brake warning signs. Discover how to identify brake problems early and prevent costly repairs or dangerous situations.",
+    "image": "https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=800&q=80",
+    "author": "Sarah Williams",
+    "date": "2024-10-28",
+    "category": "Safety",
+    "readTime": "4 min read"
+  },
+  {
+    "id": 3,
+    "slug": "choosing-right-engine-oil",
+    "title": "A Complete Guide to Choosing the Right Engine Oil",
+    "excerpt": "Confused about engine oil grades and types? This comprehensive guide breaks down everything you need to know about selecting the perfect oil for your vehicle.",
+    "image": "https://images.unsplash.com/photo-1615906655593-ad0386982a0f?w=800&q=80",
+    "author": "David Chen",
+    "date": "2024-10-25",
+    "category": "Technical",
+    "readTime": "6 min read"
+  },
+  {
+    "id": 4,
+    "slug": "battery-maintenance-winter",
+    "title": "How to Maintain Your Car Battery During Winter",
+    "excerpt": "Cold weather can be harsh on car batteries. Learn essential tips to keep your battery healthy and avoid being stranded on cold mornings.",
+    "image": "https://images.unsplash.com/photo-1593941707874-ef25b8b4a92b?w=800&q=80",
+    "author": "Emily Rodriguez",
+    "date": "2024-10-22",
+    "category": "Seasonal",
+    "readTime": "5 min read"
+  },
+  {
+    "id": 5,
+    "slug": "understanding-suspension-system",
+    "title": "Understanding Your Vehicle's Suspension System",
+    "excerpt": "Your suspension system does more than provide a smooth ride. Explore how it works and why regular maintenance is crucial for safety and performance.",
+    "image": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=800&q=80",
+    "author": "James Anderson",
+    "date": "2024-10-18",
+    "category": "Technical",
+    "readTime": "7 min read"
+  },
+  {
+    "id": 6,
+    "slug": "saving-money-auto-parts",
+    "title": "Smart Ways to Save Money on Auto Parts",
+    "excerpt": "Quality auto parts don't have to break the bank. Discover proven strategies to find reliable parts at competitive prices without compromising on quality.",
+    "image": "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=800&q=80",
+    "author": "Lisa Thompson",
+    "date": "2024-10-15",
+    "category": "Tips",
+    "readTime": "4 min read"
+  }
+]
